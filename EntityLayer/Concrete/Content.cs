@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace EntityLayer.Concrete
 {
      public class Content
-    { [Key]
+    {
+        [Key]
         public int ContentID { get; set; }
 
         [StringLength(1000)]
